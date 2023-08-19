@@ -19,7 +19,8 @@
             <Button
                     android:text="ACTIVAR"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/idBtnOnBT" android:layout_weight="1"/>
+                    android:layout_height="wrap_content" android:id="@+id/idBtnOnBT" android:layout_weight="1"
+            />
             <Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:layout_weight="1"/>
@@ -46,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/idBtnConect"/>
         <TextView
-                android:text="TextView"
+                android:text="LUZ 1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/textView"/>
         <LinearLayout
@@ -54,51 +55,50 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
             <Button
-                    android:text="Button"
+                    android:text="ON"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/button5" android:layout_weight="1"/>
+                    android:layout_height="wrap_content" android:id="@+id/idBtnLuz_1on" android:layout_weight="1"/>
             <Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:layout_weight="1"/>
             <Button
-                    android:text="Button"
+                    android:text="OFF"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/button6" android:layout_weight="1"/>
+                    android:layout_height="wrap_content" android:id="@+id/idBtnLuz_1off" android:layout_weight="1"/>
         </LinearLayout>
         <TextView
-                android:text="TextView"
+                android:text="LUZ 2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView2"/>
+                android:layout_height="wrap_content" android:id="@+id/luz2"/>
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
             <Button
-                    android:text="Button"
+                    android:text="ON"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/button7" android:layout_weight="1"/>
+                    android:layout_height="wrap_content" android:id="@+id/idBtnLuz_2on" android:layout_weight="1"/>
             <Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:layout_weight="1"/>
             <Button
-                    android:text="Button"
+                    android:text="OFF"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/button8" android:layout_weight="1"/>
+                    android:layout_height="wrap_content" android:id="@+id/idBtnLuz_2off" android:layout_weight="1"/>
         </LinearLayout>
         <TextView
-                android:text="TextView"
+                android:text="TEXTO A ENVIAR"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView3"/>
+                android:layout_height="wrap_content" android:id="@+id/textViewToSend"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:inputType="text"
-                android:text="Name"
                 android:ems="10"
-                android:id="@+id/editTextText"/>
+                android:id="@+id/idTextOut" android:hint="Texto a Enviar"/>
         <Button
-                android:text="Button"
+                android:text="ENVIAR TEXTO"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/button9"/>
+                android:layout_height="wrap_content" android:id="@+id/idBtnEnviar"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
